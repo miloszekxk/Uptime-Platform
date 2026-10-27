@@ -15,7 +15,7 @@ od pojedynczego serwera Linux, przez kontenery i CI/CD, po chmurę, Kubernetes i
 ## Moduły
 
 ### Etap 1: Fundamenty
-- [ X ] [Moduł 1: Serwer WWW](docs/moduly/modul-01-serwer-www.md)
+- [x] [Moduł 1: Serwer WWW](docs/moduly/modul-01-serwer-www.md)
 
 ## Autor
 
