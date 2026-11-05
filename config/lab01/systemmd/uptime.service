@@ -1,0 +1,20 @@
+[Unit]
+Description=Uptime Platform - monitor dostepnosci stron
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=uptime
+Group=uptime
+WorkingDirectory=/opt/uptime-platform/app
+ExecStart=/opt/uptime-platform/venv/bin/gunicorn --bind 127.0.0.1:8000 --workers 1 --threads 4 --access-logfile - app:app
+Restart=on-failure
+RestartSec=5
+
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

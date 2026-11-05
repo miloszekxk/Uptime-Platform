@@ -18,7 +18,7 @@ od pojedynczego serwera Linux, przez kontenery i CI/CD, po chmurę, Kubernetes i
 - [x] [Moduł 1: Serwer WWW](docs/moduly/modul-01-serwer-www.md)
 - [x] [Moduł 2: Bezpieczny serwer](docs/moduly/modul-02-bezpieczny-serwer.md)
 - [x] [Moduł 3: Dysk](docs/moduly/modul-03-dysk.md)
-- [ ] Moduł 4: Aplikacja v1
+- [x] [Moduł 4: Aplikacja v1](docs/moduly/modul-04-aplikacja.md)
 - [ ] Moduł 5: Baza danych
 - [ ] Moduł 6: Backup
 - [ ] Moduł 7: Dokumentacja etapu 1
